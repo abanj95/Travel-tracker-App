@@ -5,6 +5,8 @@ import pg from 'pg';
 const app = express();
 const port = 3000;
 
+//Db connection. update these to your database settings
+//find Db cvs in app to easily populate yours.
 const db = new pg.Client({
   user:'postgres',
   host:'localhost',
